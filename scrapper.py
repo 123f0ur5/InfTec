@@ -1,18 +1,18 @@
 import http.client
-import os
 from seleniumwire import webdriver
 import time
 
 
 def get_api_token():
+    path = "./chromedriver/chromedriver.exe"
+
     options = webdriver.ChromeOptions()
     prefs = {"profile.managed_default_content_settings.images": 2,
              "disk-cache-size": 4096}
     options.add_argument("log-level=3")
     options.add_experimental_option("prefs", prefs)
-    options.add_argument("--headless")
     options.add_argument("--disable-extensions")
-    driver = webdriver.Chrome(os.getenv("ChromeDriver"), options=options)
+    driver = webdriver.Chrome(path, options=options)
     driver.get("https://www.pinnacle.com/")
     time.sleep(5)
 
