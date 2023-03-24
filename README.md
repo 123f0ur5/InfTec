@@ -6,14 +6,14 @@
 
 3. Rode o comando no diretório onde foi extraído
 ```console
-pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
 
 4. Rode o comando no diretório onde foi extraído
 ```console
-python data_management.py
-ou
-python3 data_management.py
+    python data_management.py
+    ou
+    python3 data_management.py
 ```
 
 5. Digite o comando no cmd para abrir o arquivo resultado.json
