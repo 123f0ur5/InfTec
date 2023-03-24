@@ -4,7 +4,7 @@
 
 2. Abra o cmd e caminhe até a pasta extraida
 
-3. Rode o comando
+3. Rode o comando no diretório onde foi extraído
 ```console
 pip install -r requirements.txt
 ```
@@ -16,4 +16,9 @@ ou
 python3 data_management.py
 ```
 
-5. Prontinho!
+5. Digite o comando no cmd para abrir o arquivo resultado.json
+```console
+    resultado.json
+```
+
+6. Prontinho!
